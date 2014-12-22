@@ -36,6 +36,8 @@ gem "sass", :require => 'sass'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+gem "haml-rails"
+
 group :production do
   gem 'rails_12factor'
   gem 'heroku_rails_deflate'

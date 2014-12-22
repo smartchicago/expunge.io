@@ -1,0 +1,13 @@
+.center
+  %h2 DISCLAIMER
+  %p
+    This web app intends to be helpful in clarifying juvenile expungement, but
+    = succeed "." do
+      %i
+        %b does not serve as a substitute for legal aid
+    To ensure that there is no misunderstanding, it's a good idea to speak with a lawyer:
+  %ul
+    %li if you are uncertain about how to answer any of the following questions
+    %li after you go through all the questions, to double check your eligibility
+  To speak with a lawyer, just click Legal Aid at the top of the page.
+  %a.btn.btn-success{:href => "/agearrested"}= I18n.t("questions.disclaimer.button", :default => "OK, I understand. Let's get started!")
